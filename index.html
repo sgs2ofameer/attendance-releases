@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>نظام الحضور والإجازات</title>
+<meta name="description" content="برنامج ويندوز لإدارة حضور الموظفين وإجازاتهم، مع نسخ احتياطي اختياري إلى Google Drive أو OneDrive أو Dropbox.">
+<style>
+  :root { --bg:#F6F8FA; --card:#fff; --ink:#1B2A38; --muted:#5B6B7A; --line:#E1E6EB; --accent:#2F6F63; --head:#16324F; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12181F; --card:#1A222B; --ink:#E6EDF3; --muted:#9AA8B5; --line:#2A3440; --accent:#62BBA7; --head:#0E2236; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.8 Tahoma, Arial, sans-serif; }
+  header { background:var(--head); color:#fff; padding:40px 16px; text-align:center; }
+  header h1 { margin:0; font-size:30px; } header p { margin:8px auto 0; max-width:640px; color:#C9D6E2; }
+  main { max-width:820px; margin:0 auto; padding:28px 16px 64px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; }
+  .card h3 { margin:0 0 4px; font-size:17px; color:var(--accent); } .card p { margin:0; color:var(--muted); font-size:15px; }
+  h2 { font-size:20px; margin:32px 0 12px; }
+  a { color:var(--accent); } .btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:10px 20px; border-radius:8px; font-weight:700; }
+  footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+  .en { direction:ltr; text-align:left; font-family:Arial, Helvetica, sans-serif; }
+</style>
+</head>
+<body>
+<header>
+  <h1>نظام الحضور والإجازات</h1>
+  <p>برنامج ويندوز لإدارة حضور الموظفين وغيابهم وإجازاتهم وطباعة تقاريرها — يعمل على جهازك وبياناتك تبقى عندك.</p>
+</header>
+<main>
+  <div class="grid">
+    <div class="card"><h3>الحضور والغياب</h3><p>تسجيل يومي للحضور والغياب والإجازات بأنواعها والإجازات الزمنية.</p></div>
+    <div class="card"><h3>التقارير والطباعة</h3><p>تقارير شهرية وتفصيلية مع معاينة قبل الطباعة وحفظ كملف PDF.</p></div>
+    <div class="card"><h3>نسخ احتياطي</h3><p>نسخ يومية على الجهاز، ونسخ اختياري إلى حسابك في Google Drive أو OneDrive أو Dropbox.</p></div>
+    <div class="card"><h3>تحديث تلقائي</h3><p>يصلك كل إصدار جديد داخل البرنامج مع قائمة بما تغيّر.</p></div>
+  </div>
+
+  <h2>النسخ الاحتياطي السحابي</h2>
+  <p>من «الإعدادات ← البيانات» تربط حسابك بتسجيل الدخول مرة واحدة، فتُرفع نسخة من بياناتك إلى حسابك تلقائياً. البرنامج لا يصل إلا إلى ملفات النسخ التي ينشئها هو، ويقرأ بريدك فقط لعرض الحساب المربوط. التفاصيل في <a href="privacy.html">سياسة الخصوصية</a>.</p>
+
+  <h2>التنزيل</h2>
+  <p><a class="btn" href="https://github.com/sgs2ofameer/attendance-releases/releases/latest">تنزيل آخر إصدار</a></p>
+
+  <div class="card en" style="margin-top:32px">
+    <h3>Attendance &amp; Leave System</h3>
+    <p>A Windows desktop app for tracking employee attendance, absences and leave, with printable reports. All data is stored locally on the user's computer. Optional cloud backup lets users connect their own Google Drive, OneDrive or Dropbox account; the app only accesses the backup files it creates and reads the account email solely to display which account is connected. See the <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <footer>© 2026 أمير — <a href="privacy.html">سياسة الخصوصية · Privacy Policy</a></footer>
+</main>
+</body>
+</html>
